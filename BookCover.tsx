@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BookOpen, User, Sparkles, ChevronRight, Edit3, Check, UserPlus, FileSpreadsheet, Palette, Upload, RotateCcw } from 'lucide-react';
-import { StudentProfile } from '../types/portfolio';
-import { COVER_THEMES, getStudentCoverTheme } from '../utils/coverThemes';
+import { StudentProfile } from './portfolio';
+import { COVER_THEMES, getStudentCoverTheme } from './coverThemes';
 
 interface BookCoverProps {
   student: StudentProfile;

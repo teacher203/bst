@@ -1,4 +1,4 @@
-import { UnitDefinition, CoachFeedback } from '../types/portfolio';
+import { UnitDefinition, CoachFeedback } from './portfolio';
 
 export interface CoachEvaluationResult {
   grade: 'A' | 'B' | 'C' | 'D' | 'E';

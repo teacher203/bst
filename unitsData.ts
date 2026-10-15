@@ -1,4 +1,4 @@
-import { UnitDefinition } from '../types/portfolio';
+import { UnitDefinition } from './portfolio';
 
 export const UNITS_DATA: UnitDefinition[] = [
   {

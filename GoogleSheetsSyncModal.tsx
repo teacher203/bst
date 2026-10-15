@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, Check, Copy, ExternalLink, Send, FileSpreadsheet, AlertCircle, Sparkles } from 'lucide-react';
-import { PortfolioData, StudentProfile } from '../types/portfolio';
-import { UNITS_DATA } from '../data/unitsData';
+import { PortfolioData, StudentProfile } from './portfolio';
+import { UNITS_DATA } from './unitsData';
 
 interface GoogleSheetsSyncModalProps {
   isOpen: boolean;

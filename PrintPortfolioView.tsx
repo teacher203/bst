@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Printer, Layers } from 'lucide-react';
-import { PortfolioData, StudentProfile } from '../types/portfolio';
-import { UNITS_DATA } from '../data/unitsData';
-import { getStudentCoverTheme } from '../utils/coverThemes';
+import { PortfolioData, StudentProfile } from './portfolio';
+import { UNITS_DATA } from './unitsData';
+import { getStudentCoverTheme } from './coverThemes';
 
 interface PrintPortfolioViewProps {
   portfolio: PortfolioData;

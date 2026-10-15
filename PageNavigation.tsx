@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { ChevronLeft, ChevronRight, BookOpen, Bookmark } from 'lucide-react';
-import { UNITS_DATA } from '../data/unitsData';
+import { UNITS_DATA } from './unitsData';
 
 interface PageNavigationProps {
   activePage: number;

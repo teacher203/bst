@@ -1,5 +1,5 @@
-import { PortfolioData, UnitLog, StudentProfile } from '../types/portfolio';
-import { UNITS_DATA } from '../data/unitsData';
+import { PortfolioData, UnitLog, StudentProfile } from './portfolio';
+import { UNITS_DATA } from './unitsData';
 
 const STORAGE_KEY = 'b_dessert_portfolio_v3';
 

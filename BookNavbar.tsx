@@ -1,6 +1,6 @@
 import React from 'react';
 import { Printer, FileSpreadsheet, UserPlus, FolderDown } from 'lucide-react';
-import { StudentProfile } from '../types/portfolio';
+import { StudentProfile } from './portfolio';
 
 interface BookNavbarProps {
   activePage: number;

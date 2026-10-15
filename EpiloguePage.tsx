@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Award, Download, BookmarkCheck, FileText, FolderDown } from 'lucide-react';
-import { PortfolioData, StudentProfile } from '../types/portfolio';
-import { UNITS_DATA } from '../data/unitsData';
+import { PortfolioData, StudentProfile } from './portfolio';
+import { UNITS_DATA } from './unitsData';
 
 interface EpiloguePageProps {
   portfolio: PortfolioData;

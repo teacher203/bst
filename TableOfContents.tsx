@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle2, Circle, ArrowRight, BookOpen, Award, Bookmark } from 'lucide-react';
-import { UNITS_DATA, MODULE_GROUPS } from '../data/unitsData';
-import { PortfolioData } from '../types/portfolio';
+import { UNITS_DATA, MODULE_GROUPS } from './unitsData';
+import { PortfolioData } from './portfolio';
 
 interface TableOfContentsProps {
   portfolio: PortfolioData;

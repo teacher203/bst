@@ -5,29 +5,29 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { BookNavbar } from './components/BookNavbar';
-import { BookCover } from './components/BookCover';
-import { TableOfContents } from './components/TableOfContents';
-import { UnitPage } from './components/UnitPage';
-import { EpiloguePage } from './components/EpiloguePage';
-import { PageNavigation } from './components/PageNavigation';
-import { TocDrawer } from './components/TocDrawer';
-import { PrintPortfolioView } from './components/PrintPortfolioView';
-import { GoogleSheetsSyncModal } from './components/GoogleSheetsSyncModal';
-import { UNITS_DATA } from './data/unitsData';
+import { BookNavbar } from './BookNavbar';
+import { BookCover } from './BookCover';
+import { TableOfContents } from './TableOfContents';
+import { UnitPage } from './UnitPage';
+import { EpiloguePage } from './EpiloguePage';
+import { PageNavigation } from './PageNavigation';
+import { TocDrawer } from './TocDrawer';
+import { PrintPortfolioView } from './PrintPortfolioView';
+import { GoogleSheetsSyncModal } from './GoogleSheetsSyncModal';
+import { UNITS_DATA } from './unitsData';
 import {
   PortfolioData,
   UnitLog,
   StudentProfile,
-} from './types/portfolio';
+} from './portfolio';
 import {
   loadPortfolio,
   savePortfolio,
   exportPortfolioAsTxt,
   exportPortfolioAsJSON,
   createInitialPortfolio,
-} from './utils/portfolioStorage';
-import { downloadProjectZip } from './utils/projectZipExporter';
+} from './portfolioStorage';
+import { downloadProjectZip } from './projectZipExporter';
 
 export default function App() {
   const [portfolio, setPortfolio] = useState<PortfolioData>(() => loadPortfolio());

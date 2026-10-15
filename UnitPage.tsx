@@ -18,10 +18,10 @@ import {
   Trash2,
   Check,
 } from 'lucide-react';
-import { UnitDefinition, UnitLog, StudentProfile } from '../types/portfolio';
-import { evaluateStudentLog, CoachEvaluationResult } from '../utils/coachEngine';
+import { UnitDefinition, UnitLog, StudentProfile } from './portfolio';
+import { evaluateStudentLog, CoachEvaluationResult } from './coachEngine';
 import { FlapCard } from './FlapCard';
-import { InteractiveUnitWidget } from './unit-widgets/InteractiveUnitWidget';
+import { InteractiveUnitWidget } from './InteractiveUnitWidget';
 
 interface UnitPageProps {
   unit: UnitDefinition;

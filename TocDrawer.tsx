@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, CheckCircle2, Circle } from 'lucide-react';
-import { UNITS_DATA } from '../data/unitsData';
-import { PortfolioData } from '../types/portfolio';
+import { UNITS_DATA } from './unitsData';
+import { PortfolioData } from './portfolio';
 
 interface TocDrawerProps {
   isOpen: boolean;
